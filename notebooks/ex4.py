@@ -15,7 +15,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score,precision_score,recall_score,f1_score
 import pickle
 dagshub.init(repo_owner='ankit-gadhwal', repo_name='mlops_project', mlflow=True)
-mlflow.set_experiment("water_exp1")
+mlflow.set_experiment("water_exp4")
 mlflow.set_tracking_uri("https://dagshub.com/ankit-gadhwal/mlops_project.mlflow")
 data = pd.read_csv(r"data\Watera.csv")
 from sklearn.model_selection import train_test_split,RandomizedSearchCV
